@@ -1,12 +1,23 @@
----
-postgres:
-  database: attendance_db
-  host: 172.17.0.3
+database:
+  host: localhost
   port: 5432
-  user: postgres
-  password: password
+  user: your_user
+  password: your_password
+  dbname: attendance_db
+
+  cache:
+  host: localhost
+  port: 6379
 
 redis:
-  host: 172.17.0.4
+  host: "localhost"
   port: 6379
-  password: ""
+  db: 0
+  password:
+postgres:
+  database: "your_database_name"
+  user: "your_user"
+  password: "your_password"
+  host: "localhost"
+  port: 5432
+
