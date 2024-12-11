@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="./static/attendance-api-logo.svg" height="280" width="280">
 </p>
@@ -87,3 +88,6 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ## Contact Information
 
 [Opstree Opensource](mailto:opensource@opstree.com)
+=======
+# AttendanceAPi
+>>>>>>> bd3aa68c45704ffee0330c875d448e4a2580c8de
